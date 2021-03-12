@@ -1,0 +1,29 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "A e-commerce backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chelle77322/e-commerce.git"
+  },
+  "keywords": [
+    "e-Commerce",
+    "backend",
+    "sequelize"
+  ],
+  "author": "Michelle Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chelle77322/e-commerce/issues"
+  },
+  "homepage": "https://github.com/Chelle77322/e-commerce#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
