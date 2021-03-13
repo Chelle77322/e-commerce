@@ -1,9 +1,4 @@
-const Sequelize = require('sequelize');
-require ('dotenv').config({path: __dirname +`/../env`});
-require ('config-json');
 
-
-//Accessing the environment variables to use to connect to mySQL database employment_managementDB
 let sequelize;
 if(process.env.JAWSDB_URL){
   sequelize = new Sequelize(process.env.JAWSDB_URL);
