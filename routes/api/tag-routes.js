@@ -34,10 +34,32 @@ router.get('/:id', (request, result) => {
 
 router.post('/', (request, result) => {
   // create a new tag
+  Tag.create({
+    tag_name: request.body.tag_name})
+    .then(tagData => result.json(tagData))
+    .catch(error => {
+      console.log(error);
+      result.status(500).json (error);
+    });
 });
 
 router.put('/:id', (request, result) => {
   // update a tag's name by its `id` value
+  Tag.update({
+    tag_name: request.body.tag_name},
+    { where: { id: request.params.id}
+  })
+  .then(tagData => {
+    if (!tagData){
+      result.status(404).json ({message: 'No Tag was found that matched the ID'});
+      return;
+    }
+    result.json(tagData);
+  })
+  .catch(error => {
+    console.log(error);
+    result.status(500).json(error);
+  });
 });
 
 router.delete('/:id', (request, result) => {
