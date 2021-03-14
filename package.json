@@ -13,13 +13,19 @@
     "type": "git",
     "url": "git+https://github.com/Chelle77322/e-commerce.git"
   },
-  "keywords": [ "e-commerce", "backend","server"],
+  "keywords": [
+    "e-commerce",
+    "backend",
+    "server"
+  ],
   "author": "Michelle Hall",
   "license": "Apache",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "config-json": "^1.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
