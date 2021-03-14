@@ -1,5 +1,4 @@
 const express = require('express');
-const { Z_ERRNO } = require('node:zlib');
 const sequelize = require('./config/connection');
 const routes = require('./routes');
 // import sequelize connection
