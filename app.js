@@ -1,11 +1,18 @@
-require("./config/connection");
-let connection;
+const express = require('express');
+const sequelize =require("./config/connection.js");
+const app = express();
+const mysql = require('mysql2');
+console.log(sequelize);
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
-const connection = mysql.createConnection({
-    host: process.env.DB_HOST,
-    port: process.env.DB_PORT,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME,
-  });
-  console.log(connection);
+sequelize.authentication ().then (()=> {
+  console.log('Connection established successfully.');
+  console.log(sequelize);
+
+}).catch (error =>{
+  console.error("Unable to connect to the database:", error);
+}).finally(()=> {
+  sequelize.close();
+
+});
