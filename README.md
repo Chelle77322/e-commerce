@@ -1,6 +1,18 @@
 
 <h1 align="center">E-Commerce BackEnd</h1>
-  
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/Chelle77322/e-commerce" />
+</p>
+ <p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/jQuery-blue"  />
+    <img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/-inquirer-red" >
+     <img src="https://img.shields.io/badge/-sequelize-blue" >
+      <img src="https://img.shields.io/badge/-express-yellow" >
+    <img src="https://img.shields.io/badge/-Insomnia-lightgrey" />
+    <img src="https://img.shields.io/badge/-json-orange" />
+</p>
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
 ℹ️ As the manager at an internet retail company I need a back end for my e-commerce website that uses the latest technologies
