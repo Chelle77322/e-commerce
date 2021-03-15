@@ -45,6 +45,8 @@ This application is covered by the MIT license.
 🙋‍♀️Michelle Hall
 ## Tests
  No
+## Issues
+Routing code is there for Products, Categories and Tags, but cannot stand to use either POSTMAN or INSOMNIA so video will not demonstrate that part.
 ## Questions
 🤔 If people have any questions please contact me via gitHub or email<br />
 <br />
