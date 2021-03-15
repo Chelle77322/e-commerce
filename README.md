@@ -29,10 +29,10 @@ so that my company can compete with other e-commerce companies.
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-Clone repository: https://github.com/Chelle77322/e-commerce.git
-💻 npm init
-npm install mysql2
-npm install sequelize
+Clone repository: https://github.com/Chelle77322/e-commerce.git <hr>
+💻 npm init <hr>
+npm install mysql2 <hr>
+npm install sequelize <hr>
 npm install dotenv
 npm install express
 ## Usage
