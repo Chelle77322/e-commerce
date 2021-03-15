@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-require ('dotenv').config({path: __dirname +`/../env`});
+require ('dotenv').config();//{path: __dirname +`/../env`}
 require ('config-json');
 
 let sequelize;
@@ -19,5 +19,5 @@ if (process.env.JAWSDB_URL){
       },
     });
 }
-console.log(sequelize);
+
 module.exports = sequelize;
