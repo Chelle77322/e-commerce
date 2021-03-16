@@ -46,7 +46,10 @@ This application is covered by the MIT license.
 ## Tests
  No
 ## Issues
-Routing code is there for Products, Categories and Tags, but cannot stand to use either POSTMAN or INSOMNIA so video will not demonstrate that part.
+Does not show full routing methods in video
+https://user-images.githubusercontent.com/73085179/111307872-ed136b80-86a9-11eb-8035-b6fa6eb90381.mp4
+
+
 ## Questions
 🤔 If people have any questions please contact me via gitHub or email<br />
 <br />
