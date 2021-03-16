@@ -86,10 +86,12 @@ router.delete('/:id', (request, result) => {
   })
   .then(dbCategoryData => {
     if(!dbCategoryData){
-      result.status(404).jsob ({ message: 'No category matches this id'});
+      result.status(404).json ({ message: 'No category matches this id'});
       return;
     }
     result.json(dbCategoryData);
+    console.log(dbCategoryData);
+    console.log(result);
   })
   .catch(error => {
     console.log(error);
